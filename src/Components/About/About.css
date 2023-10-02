@@ -1,0 +1,106 @@
+.gradient-text {
+    background: linear-gradient(to right, #16d59c, #07f7f7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.dropShadow {
+    filter: drop-shadow(0 0 8px #16d59c);
+}
+
+.dropShadow:hover {
+    filter: drop-shadow(0 0 18px #16d59c);
+    transition: 0.3s ease-in;
+}
+
+.about {
+    animation: fade-out .8s ease-out forwards;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.animation-fade-right{
+    animation: fade-right .6s cubic-bezier(0,.84,.01,1.4) forwards;
+    opacity: 0;
+}
+.animation-fade-right-1{
+    animation-delay: .6s;
+}
+.animation-fade-right-2{
+    animation-delay: .6s;
+}
+.animation-fade-right-3{
+    animation-delay: .8s;
+}
+.animation-fade-right-4{
+    animation-delay: 1s;
+}
+.animation-fade-right-5{
+    animation-delay: 1.2s;
+}
+.animation-fade-right-6{
+    animation-delay: 1.4s;
+}
+.animation-fade-right-7{
+    animation-delay: 1.6s;
+}
+
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(4rem)
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+.animation-fade-left{
+    animation: fade-left 0.8s cubic-bezier(1,.28,.05,1.38) forwards;
+    opacity: 0;
+}
+.animation-fade-left-1{
+    animation-delay: .3;
+}
+.animation-fade-left-2{
+    animation-delay: .4s;
+}
+
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem) scale(.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animation-fade-up{
+    animation: fade-up .6s 2s cubic-bezier(.01,.82,.05,1.38) forwards;
+    opacity: 0;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem) scale(.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
