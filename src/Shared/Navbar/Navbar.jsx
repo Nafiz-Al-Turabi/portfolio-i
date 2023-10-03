@@ -49,27 +49,27 @@ const Navbar = () => {
         >
           <ul className="py-4 text-white text-center">
             <li>
-              <Link to="/" className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/about" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Experience
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Contact
               </Link>
             </li>

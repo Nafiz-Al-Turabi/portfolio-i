@@ -19,7 +19,7 @@ const About = () => {
                         <span className='text-gray-300 ml-2 font-normal'>Nafiz Al Turabi</span>
                         </p>
                         <p className='animation-fade-right-4 animation-fade-right text-lg md:text-2xl lg:text-2xl font-bold  mb-0 lg:mb-2 gradient-text'>DATE OF BIRTH: 
-                        <span className='text-gray-300 ml-2 font-normal'>2 march 1999</span>
+                        <span className='text-gray-300 ml-2 font-normal'>2 March 1999</span>
                         </p>
                         <p className='animation-fade-right-5 animation-fade-right text-lg md:text-2xl lg:text-2xl font-bold  mb-0 lg:mb-2 gradient-text'>NATIONALITY: 
                         <span className='text-gray-300 ml-2 font-normal'>Bangladesh</span>

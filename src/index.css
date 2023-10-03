@@ -89,7 +89,7 @@ button:focus-visible {
   @apply border-[#07f7f7]
 }
 .screen{
-  @apply h-full md:h-full lg:h-screen
+  @apply h-screen md:h-screen lg:h-screen
 }
 .linear-gradient{
   @apply bg-gradient-to-l from-[#07f7f7] to-[#16d59c]
