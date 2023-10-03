@@ -1,0 +1,49 @@
+.animation-pop-up{
+    animation: fade-pop-up 0.8s .8s cubic-bezier(0,.84,.01,1.4) forwards;
+    opacity: 0;
+}
+
+@keyframes fade-pop-up{
+    0%{
+        opacity: 0;
+        transform: translateX(-4rem) scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animation-fade-up1{
+    animation: fade-up 0.6s ease-out forwards;
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: #16d59c; /* Initial color */
+    }
+    50% {
+        color: #07f7f7; /* Midway color */
+    }
+    75% {
+        color: #01a7a7; /* Midway color */
+    }
+    100% {
+        color: #16d59c; /* Final color */
+    }
+}
+
+.animated-text {
+    animation: colorChange 4s linear infinite; 
+    opacity: 1;
+}

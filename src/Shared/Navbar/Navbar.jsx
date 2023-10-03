@@ -64,12 +64,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/projects" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
+              <Link to="/contact" onClick={toggleMobileMenu} className="text-xl tracking-widest block py-2 hover:text-gray-300">
                 Contact
               </Link>
             </li>
@@ -95,13 +95,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-xl tracking-widest text-white hover:text-gray-300">
+              <Link to="/projects" className="text-xl tracking-widest text-white hover:text-gray-300">
                 Projects
               </Link>
             </li>
             
             <li>
-              <Link to="/" className="text-xl tracking-widest text-white hover:text-gray-300">
+              <Link to="/contact" className="text-xl tracking-widest text-white hover:text-gray-300">
                 Contact
               </Link>
             </li>
