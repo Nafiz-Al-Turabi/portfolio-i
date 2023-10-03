@@ -14,7 +14,7 @@ const About = () => {
                     </div>
                     <div className='mt-[246px] md:mt-[500px] lg:mt-0'>
                         <h1 className='animation-fade-right-1 animation-fade-right gradient-text text-3xl lg:text-5xl font-bold uppercase  mb-3'>ABOUT ME</h1>
-                        <p className='animation-fade-right-2 animation-fade-right text-gray-400 text-lg mb-6'>Hello! I’m Oliver Queen. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+                        <p className='animation-fade-right-2 animation-fade-right text-gray-400 text-lg mb-6'>Hello! I’m Nafiz Al Turabi. Web Developer with over 1.5 years of learning experience and 3 months working experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, TailwindCSS,Bootstrap, JavaScript, React.js, Node.js, MongoDB,firebase</p>
                         <p className='animation-fade-right-3 animation-fade-right text-lg md:text-2xl lg:text-2xl font-bold  mb-0 lg:mb-2 gradient-text'>NAME:
                             <span className='text-gray-300 ml-2 font-normal'>Nafiz Al Turabi</span>
                         </p>
